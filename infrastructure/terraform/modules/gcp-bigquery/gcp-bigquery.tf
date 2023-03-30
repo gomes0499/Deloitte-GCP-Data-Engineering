@@ -3,7 +3,6 @@ resource "google_bigquery_dataset" "default" {
   friendly_name               = "wu5bigquery"
   description                 = "This is a test description"
   location                    = "US"
-  default_table_expiration_ms = 3600000
 
   labels = {
     env = "default"

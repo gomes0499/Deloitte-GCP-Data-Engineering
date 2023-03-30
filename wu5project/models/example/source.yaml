@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: wu5_raw_data
+    database: wu5projectgcp
+    schema: wu5datasetid
+    tables:
+      - name: clients
+      - name: projects
+      - name: employees
+      - name: financial_transactions
+      - name: customer_behavior
+      - name: sales
+      - name: marketing_campaigns

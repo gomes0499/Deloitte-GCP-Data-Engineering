@@ -1,0 +1,70 @@
+version: 2
+
+models:
+  - name: clients_projects_view
+    columns:
+      - name: client_id
+        tests:
+          - not_null
+          - unique
+      - name: project_id
+        tests:
+          - not_null
+          - unique
+
+  - name: employees_transactions_view
+    columns:
+      - name: employee_id
+        tests:
+          - not_null
+          - unique
+      - name: transaction_id
+        tests:
+          - not_null
+          - unique
+
+  - name: clients_transactions_view
+    columns:
+      - name: client_id
+        tests:
+          - not_null
+          - unique
+      - name: transaction_id
+        tests:
+          - not_null
+          - unique
+
+  - name: projects_transactions_view
+    columns:
+      - name: project_id
+        tests:
+          - not_null
+          - unique
+      - name: transaction_id
+        tests:
+          - not_null
+          - unique
+
+  - name: customer_behavior_sales_view
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+      - name: sales_id
+        tests:
+          - not_null
+          - unique
+
+  - name: employees_sales_view
+    columns:
+      - name: employee_id
+        tests:
+          - not_null
+          - unique
+      - name: sales_id
+        tests:
+          - not_null
+          - unique
+
+
