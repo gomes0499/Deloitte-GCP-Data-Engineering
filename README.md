@@ -6,16 +6,16 @@ Delloite is a multinational professional services company that aims to gain insi
 
 ### Data Pipeline Steps
 
-1. Infrastructure: Provision necessary GCP resources using Terraform.
-2. CI/CD: Use GitHub Actions as a CI/CD platform for the Terraform infrastructure.
-3. Data Modeling: Use Python to create a script that generates dummy data for the Deloitte project context, simulating: (Clients, Projects, Employees, Financial Transactions, Customer Behavior, Sales, Marketing Campaigns).
-4. Data Ingestion: Set up GCP Cloud SQL and insert generated data.
-5. Data Lake Raw Zone: Store the retrieved data in the Data Lake Raw Zone on GCP Raw Storage using Python.
-6. Data Processing: Create a Dataflow pipeline to read data from the Raw Zone in GCP Storage, and apply transformations.
-7. Data Lake Processing Zone: Write the processed data back to the Data Lake Process Zone on GCP Storage.
-8. Data Warehouse: Load transformed data into BigQuery Data Warehouse.
-9. Analytics Engineer: Set up DBT and create the necessary transformation models.
-10. Data Orchestration:  Set up GCP Composer and configure an dag for Apache Airflow environment.
+1. **Infrastructure**: Provision necessary GCP resources using Terraform.
+2. **CI/CD**: Use GitHub Actions as a CI/CD platform for the Terraform infrastructure.
+3. **Data Modeling**: Use Python to create a script that generates dummy data for the Deloitte project context, simulating: (Clients, Projects, Employees, Financial Transactions, Customer Behavior, Sales, Marketing Campaigns).
+4. **Data Ingestion**: Set up GCP Cloud SQL and insert generated data.
+5. **Data Lake Raw Zone**: Store the retrieved data in the Data Lake Raw Zone on GCP Raw Storage using Python.
+6. **Data Processing**: Create a Dataflow pipeline to read data from the Raw Zone in GCP Storage, and apply transformations.
+7. **Data Lake Processing Zone**: Write the processed data back to the Data Lake Process Zone on GCP Storage.
+8. **Data Warehouse**: Load transformed data into BigQuery Data Warehouse.
+9. **Analytics Engineer**: Set up DBT and create the necessary transformation models.
+10. **Data Orchestration**:  Set up GCP Composer and configure an dag for Apache Airflow environment.
 
 ### Pipeline Diagram
 
