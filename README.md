@@ -1,4 +1,4 @@
-# 5.Data-Engineer - Deloitte - Study Case
+# Data-Engineer - Deloitte - Study Case
 
 ## Deloitte
 
