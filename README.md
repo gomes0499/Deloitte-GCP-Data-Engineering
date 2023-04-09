@@ -24,6 +24,7 @@ Delloite is a multinational professional services company that aims to gain insi
 ### Tools
 
 * Python
+* Jupyter
 * Terraform
 * Github Actions
 * GCP SQL
