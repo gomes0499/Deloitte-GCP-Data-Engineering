@@ -9,3 +9,4 @@ terraform.tfstate
 __pycache__
 .venv
 service-account
+dummy-data.py
