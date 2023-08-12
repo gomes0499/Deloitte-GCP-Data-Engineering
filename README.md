@@ -19,7 +19,7 @@ Delloite is a multinational professional services company that aims to gain insi
 
 ### Pipeline Diagram
 
-![alt text](https://github.com/makima0499/5.Data-Engineer/blob/main/5.DataPipeline.png)
+![alt text](https://github.com/makima0499/5.Data-Engineer/blob/main/Deloitte.png)
 
 ### Tools
 
